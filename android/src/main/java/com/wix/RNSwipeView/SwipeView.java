@@ -37,7 +37,7 @@ public class SwipeView extends ViewGroup {
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        swipeOutDistance = w/2;
+        swipeOutDistance = w / 4;
     }
 
     @Override
